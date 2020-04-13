@@ -20,3 +20,9 @@ function uuid(seed = 100) {
     .substring(2, 2 + seed);
 }
 ```
+
+```javascript
+function dedupe(array) {
+  return [...new Set(array)];
+}
+```
