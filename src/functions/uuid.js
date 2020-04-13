@@ -7,4 +7,4 @@ function uuid(seed = 100) {
     .substring(2, 2 + seed);
 }
 
-console.log(uuid());
+module.exports = uuid;
