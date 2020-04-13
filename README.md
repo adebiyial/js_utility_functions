@@ -3,6 +3,7 @@
 Just functions I use while developing. It's imperfect but I'm learning.
 
 ```javascript
+// returns true if value is null or undefined
 function isVariableNullOrUndefined(variable) {
   const isNull = String(variable) === "null";
   const isUndefined = String(variable) === "undefined";
@@ -12,6 +13,7 @@ function isVariableNullOrUndefined(variable) {
 ```
 
 ```javascript
+// Returns a random string
 function uuid(seed = 100) {
   const {random} = Math;
 
