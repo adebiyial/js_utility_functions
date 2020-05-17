@@ -30,7 +30,8 @@ function dedupe(array) {
 }
 ```
 
-```js// Returns true if object is empty
+```js
+// Returns true if object is empty
 function isObjectEmpty({object}) {
   return Object.keys(object).length === 0;
 }
