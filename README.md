@@ -29,3 +29,9 @@ function dedupe(array) {
   return [...new Set(array)];
 }
 ```
+
+```js// Returns true if object is empty
+function isObjectEmpty({object}) {
+  return Object.keys(object).length === 0;
+}
+```
